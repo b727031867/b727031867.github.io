@@ -25,14 +25,14 @@
 <meta property="og:site_name" content="一叶知秋">
 <meta property="og:description" content="Java 8 函数式编程读书笔记 函数式接口：只有单个抽象方法的接口 使用示例： 12345678910111213141516171819202122232425262728293031323334353637&#x2F;** * @author 龚秀峰 * @version 1.0 * @date 2020&#x2F;9&#x2F;29 22:00 *&#x2F;@FunctionalInterfacepublic interfac">
 <meta property="og:locale" content="zh_CN">
-<meta property="og:image" content="https://b727031867.github.io/Java%E5%87%BD%E6%95%B0%E5%BC%8F%E7%BC%96%E7%A8%8B/assets/image-20200929221059823.png">
-<meta property="og:image" content="https://b727031867.github.io/Java%E5%87%BD%E6%95%B0%E5%BC%8F%E7%BC%96%E7%A8%8B/assets/image-20201005222721432.png">
+<meta property="og:image" content="https://b727031867.github.io/assets/image-20200929221059823.png">
+<meta property="og:image" content="https://b727031867.github.io/assets/image-20201005222721432.png">
 <meta property="article:published_time" content="2020-10-10T12:12:43.995Z">
-<meta property="article:modified_time" content="2020-10-06T14:51:18.785Z">
+<meta property="article:modified_time" content="2020-10-10T14:17:22.020Z">
 <meta property="article:author" content="Mr.G">
 <meta property="article:tag" content="Java 编程">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:image" content="https://b727031867.github.io/Java%E5%87%BD%E6%95%B0%E5%BC%8F%E7%BC%96%E7%A8%8B/assets/image-20200929221059823.png">
+<meta name="twitter:image" content="https://b727031867.github.io/assets/image-20200929221059823.png">
   <!-- Canonical links -->
   <link rel="canonical" href="https://b727031867.github.io/2020/10/10/Java%E5%87%BD%E6%95%B0%E5%BC%8F%E7%BC%96%E7%A8%8B/index.html">
   
@@ -224,7 +224,7 @@
   <div class="widget">
     <h3 class="widget-title">归档</h3>
     <div class="widget-body">
-      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2020/10/">十月 2020</a><span class="archive-list-count">8</span></li></ul>
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2020/10/">十月 2020</a><span class="archive-list-count">5</span></li></ul>
     </div>
   </div>
 
@@ -258,21 +258,6 @@
                 
               </p>
               <p class="item-title">
-                <a href="/2020/10/10/%E5%85%B3%E7%B3%BB%E5%9E%8B%E6%95%B0%E6%8D%AE%E5%BA%93%E8%80%83%E7%82%B9/" class="title">(no title)</a>
-              </p>
-              <p class="item-date">
-                <time datetime="2020-10-10T12:12:43.999Z" itemprop="datePublished">2020-10-10</time>
-              </p>
-            </div>
-          </li>
-          
-          <li>
-            
-            <div class="item-inner">
-              <p class="item-category">
-                
-              </p>
-              <p class="item-title">
                 <a href="/2020/10/10/Spring%E7%AC%94%E8%AE%B0/" class="title">(no title)</a>
               </p>
               <p class="item-date">
@@ -288,10 +273,10 @@
                 
               </p>
               <p class="item-title">
-                <a href="/2020/10/10/JVM%E5%9F%BA%E7%A1%80/" class="title">(no title)</a>
+                <a href="/2020/10/10/Java%E5%87%BD%E6%95%B0%E5%BC%8F%E7%BC%96%E7%A8%8B/" class="title">(no title)</a>
               </p>
               <p class="item-date">
-                <time datetime="2020-10-10T12:12:43.996Z" itemprop="datePublished">2020-10-10</time>
+                <time datetime="2020-10-10T12:12:43.995Z" itemprop="datePublished">2020-10-10</time>
               </p>
             </div>
           </li>
@@ -303,10 +288,25 @@
                 
               </p>
               <p class="item-title">
-                <a href="/2020/10/10/Java%E5%87%BD%E6%95%B0%E5%BC%8F%E7%BC%96%E7%A8%8B/" class="title">(no title)</a>
+                <a href="/2020/10/10/Java%20NIO%E7%9F%A5%E8%AF%86/" class="title">(no title)</a>
               </p>
               <p class="item-date">
-                <time datetime="2020-10-10T12:12:43.995Z" itemprop="datePublished">2020-10-10</time>
+                <time datetime="2020-10-10T12:12:43.993Z" itemprop="datePublished">2020-10-10</time>
+              </p>
+            </div>
+          </li>
+          
+          <li>
+            
+            <div class="item-inner">
+              <p class="item-category">
+                
+              </p>
+              <p class="item-title">
+                <a href="/2020/10/10/Docker%E9%83%A8%E7%BD%B2%E7%AC%94%E8%AE%B0/" class="title">(no title)</a>
+              </p>
+              <p class="item-date">
+                <time datetime="2020-10-10T12:12:43.991Z" itemprop="datePublished">2020-10-10</time>
               </p>
             </div>
           </li>
@@ -366,7 +366,7 @@
 <figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment"> * <span class="doctag">@author</span> 龚秀峰</span></span><br><span class="line"><span class="comment"> * <span class="doctag">@version</span> 1.0</span></span><br><span class="line"><span class="comment"> * <span class="doctag">@date</span> 2020/9/29 22:00</span></span><br><span class="line"><span class="comment"> */</span></span><br><span class="line"><span class="meta">@FunctionalInterface</span></span><br><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">interface</span> <span class="title">Test</span>&lt;<span class="title">T</span>&gt; </span>&#123;</span><br><span class="line">    <span class="comment">//上述定义了一个函数接口，其中有一个方法test，该方法接收两个泛型对象参数，返回一个泛型对象</span></span><br><span class="line">    <span class="function">T <span class="title">test</span><span class="params">(T param1,T param2)</span></span>;</span><br><span class="line">    <span class="comment">//函数接口中只能定义一个方法，定义多个方法会导致注解FunctionalInterface报错</span></span><br><span class="line">    <span class="comment">//Multiple non-overriding abstract methods found in xxx</span></span><br><span class="line">    <span class="comment">//这是因为，Java中存在的类型重载，会让javac挑选最明确的类型，但是拉姆达表达式是一段代码，而不是一种类型</span></span><br><span class="line">    <span class="comment">//所以无法进行挑选。为了避免歧义，让函数式接口中只能存在一个接口方法</span></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">MyClass</span> <span class="keyword">implements</span> <span class="title">Test</span>&lt;<span class="title">String</span>&gt;</span>&#123;</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">main</span><span class="params">(String[] args)</span> </span>&#123;</span><br><span class="line">        String resStr = <span class="keyword">new</span> MyClass().test(<span class="string">&quot;a&quot;</span>, <span class="string">&quot;b&quot;</span>);</span><br><span class="line">        <span class="comment">//下面想要通过拉姆达表达式创建类或抽象类的对象，让对象具有不同的行为，不允许！</span></span><br><span class="line">        <span class="comment">//new MyClass().test((param1,param2) -&gt; param1 + param2 * param1);</span></span><br><span class="line">        <span class="comment">//会报错：Target type of a lambda conversion must be an interface</span></span><br><span class="line">        System.out.println(resStr);</span><br><span class="line">        <span class="comment">//使用拉姆达表达式，传入另外一种行为，使得接口的ｔｅｓｔ方法具有其他的行为</span></span><br><span class="line">        Test&lt;Integer&gt; iTest = (param1,param2) -&gt; param1 + param2 * param1;</span><br><span class="line">        Integer res = iTest.test(<span class="number">6</span>, <span class="number">1</span>);</span><br><span class="line">        System.out.println(res);</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="comment">//传统的实现接口方式</span></span><br><span class="line">    <span class="meta">@Override</span></span><br><span class="line">    <span class="function"><span class="keyword">public</span> String <span class="title">test</span><span class="params">(String param1, String param2)</span> </span>&#123;</span><br><span class="line">        <span class="keyword">return</span> param1 + param2;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"></span><br></pre></td></tr></table></figure>
 </li>
 <li><p>运行结果：</p>
-<p><img src="/Java%E5%87%BD%E6%95%B0%E5%BC%8F%E7%BC%96%E7%A8%8B/assets/image-20200929221059823.png" alt="image-20200929221059823"></p>
+<p><img src="/assets/image-20200929221059823.png" alt="image-20200929221059823"></p>
 </li>
 <li><p>常用的函数接口</p>
 <ul>
@@ -380,7 +380,7 @@
 <figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">@FunctionalInterface</span></span><br><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">interface</span> <span class="title">Test</span>&lt;<span class="title">T</span>&gt; </span>&#123;</span><br><span class="line">    <span class="comment">//此方法是高级函数，它的第二个参数可以接收一个拉姆达表达式</span></span><br><span class="line">    <span class="function">T <span class="title">test</span><span class="params">(T param1,Supplier&lt;T&gt; handler)</span></span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 </li>
 <li><p>默认方法：为了解决接口新增方法时，所有实现类都必须实现新增的方法的问题，不实现抽象方法的类则采用默认方法中的实现。下图是jdk中集合遍历的默认实现：</p>
-<p><img src="/Java%E5%87%BD%E6%95%B0%E5%BC%8F%E7%BC%96%E7%A8%8B/assets/image-20201005222721432.png" alt="image-20201005222721432"></p>
+<p><img src="/assets/image-20201005222721432.png" alt="image-20201005222721432"></p>
 <p>默认方法的特点：</p>
 <ul>
 <li>需要添加default关键字</li>
@@ -552,7 +552,7 @@ Stream&lt;T&gt; of(T... values)//从数组中获取流，按照顺序有序生�
   <ul class="pager pull-left">
     
     <li class="prev">
-      <a href="/2020/10/10/JVM%E5%9F%BA%E7%A1%80/" title="(no title)"><i class="icon icon-angle-left" aria-hidden="true"></i><span>&nbsp;&nbsp;上一篇</span></a>
+      <a href="/2020/10/10/Spring%E7%AC%94%E8%AE%B0/" title="(no title)"><i class="icon icon-angle-left" aria-hidden="true"></i><span>&nbsp;&nbsp;上一篇</span></a>
     </li>
     
     
