@@ -74,27 +74,6 @@
 
   
   <url>
-    <loc>https://b727031867.github.io/tags/Java/</loc>
-    <lastmod>2020-10-11</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://b727031867.github.io/tags/Spring/</loc>
-    <lastmod>2020-10-11</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://b727031867.github.io/tags/%E4%BA%8B%E5%8A%A1/</loc>
-    <lastmod>2020-10-11</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://b727031867.github.io/tags/%E8%BF%90%E7%BB%B4/</loc>
     <lastmod>2020-10-11</lastmod>
     <changefreq>daily</changefreq>
@@ -116,7 +95,28 @@
   </url>
   
   <url>
+    <loc>https://b727031867.github.io/tags/Java/</loc>
+    <lastmod>2020-10-11</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://b727031867.github.io/tags/%E5%87%BD%E6%95%B0%E5%BC%8F%E7%BC%96%E7%A8%8B/</loc>
+    <lastmod>2020-10-11</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://b727031867.github.io/tags/Spring/</loc>
+    <lastmod>2020-10-11</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://b727031867.github.io/tags/%E4%BA%8B%E5%8A%A1/</loc>
     <lastmod>2020-10-11</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -160,13 +160,6 @@
 
   
   <url>
-    <loc>https://b727031867.github.io/categories/Spring/</loc>
-    <lastmod>2020-10-11</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://b727031867.github.io/categories/%E6%8C%81%E7%BB%AD%E9%9B%86%E6%88%90/</loc>
     <lastmod>2020-10-11</lastmod>
     <changefreq>daily</changefreq>
@@ -181,6 +174,20 @@
   </url>
   
   <url>
+    <loc>https://b727031867.github.io/categories/Spring/</loc>
+    <lastmod>2020-10-11</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://b727031867.github.io/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/</loc>
+    <lastmod>2020-10-11</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://b727031867.github.io/categories/%E6%8C%81%E7%BB%AD%E9%9B%86%E6%88%90/%E8%BF%90%E7%BB%B4/</loc>
     <lastmod>2020-10-11</lastmod>
     <changefreq>daily</changefreq>
@@ -189,13 +196,6 @@
   
   <url>
     <loc>https://b727031867.github.io/categories/Java%E5%9F%BA%E7%A1%80/Java%E6%96%B0%E7%89%B9%E6%80%A7/</loc>
-    <lastmod>2020-10-11</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://b727031867.github.io/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/</loc>
     <lastmod>2020-10-11</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
