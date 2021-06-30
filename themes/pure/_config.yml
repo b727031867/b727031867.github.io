@@ -5,8 +5,8 @@ menu:
   Categories: categories  # 分类
   Tags: tags  # 标签
   Repository: repository  # github repositories
-  Books: books  # 豆瓣书单
-  Links: links  # 友链
+  #Books: books  # 豆瓣书单
+  #Links: links  # 友链
   About: about  # 关于
 
 # Enable/Disable menu icons
@@ -102,12 +102,13 @@ share:
 
 # Github
 github: 
-  username: cofess  # github username
+  username: b727031867  # github username
 
 # Comment
 # Gitment
 # Introduction: https://imsun.net/posts/gitment-introduction/
 comment:
+  enable: false
   type: valine  # 启用哪种评论系统
   disqus:  # enter disqus shortname here
   youyan: 
@@ -187,21 +188,21 @@ profile:
   enabled: true # Whether to show profile bar
   avatar: images/avatar.jpg
   gravatar: # Gravatar email address, if you enable Gravatar, your avatar config will be overriden
-  author: 昵称
-  author_title: Web Developer & Designer
-  author_description: 个人简介。
-  location: Shenzhen, China
-  follow: https://github.com/cofess
+  author: Mr.G
+  author_title: 软件工程师
+  author_description: 大家好，我是Mr.G，我热爱编程，喜欢折腾，擅长服务后台开发。希望有机会能与大家一起交流技术~！
+  location: Zhuhai, China
+  follow: https://github.com/b727031867
   # Social Links
   social:
     links:
-      github: https://github.com/cofess
-      weibo: http://weibo.com/cofess
-      twitter: https://twitter.com/iwebued
+      github: https://github.com/b727031867
+      #weibo: http://weibo.com/cofess
+      #twitter: https://twitter.com/iwebued
       # facebook: /
       # dribbble: /
-      behance: https://www.behance.net/cofess
-      rss: atom.xml
+      #behance: https://www.behance.net/cofess
+      #rss: atom.xml
     link_tooltip: true # enable the social link tooltip, options: true, false
   # My Skills 
   skills:
