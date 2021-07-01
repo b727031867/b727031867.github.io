@@ -30,13 +30,6 @@
   </url>
   
   <url>
-    <loc>https://b727031867.github.io/categories/index.html</loc>
-    
-    <lastmod>2021-05-30</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://b727031867.github.io/404.html</loc>
     
     <lastmod>2021-05-30</lastmod>
@@ -44,7 +37,7 @@
   </url>
   
   <url>
-    <loc>https://b727031867.github.io/links/index.html</loc>
+    <loc>https://b727031867.github.io/categories/index.html</loc>
     
     <lastmod>2021-05-30</lastmod>
     
@@ -52,6 +45,13 @@
   
   <url>
     <loc>https://b727031867.github.io/repository/index.html</loc>
+    
+    <lastmod>2021-05-30</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://b727031867.github.io/links/index.html</loc>
     
     <lastmod>2021-05-30</lastmod>
     
