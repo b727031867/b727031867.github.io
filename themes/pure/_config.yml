@@ -108,7 +108,6 @@ github:
 # Gitment
 # Introduction: https://imsun.net/posts/gitment-introduction/
 comment:
-  enable: false
   type: valine  # 启用哪种评论系统
   disqus:  # enter disqus shortname here
   youyan: 
@@ -128,12 +127,12 @@ comment:
     ClientID:  #必须. GitHub Application Client ID.
     ClientSecret:  #必须. GitHub Application Client Secret.
   valine: # Valine. https://valine.js.org
-    appid:  # your leancloud application appid
-    appkey:  # your leancloud application appkey
+    appid:  llSOw52nWaGIeRiKzLsVVB37-MdYXbMMI
+    appkey:  W99XHEV1MjfJ53IolQRfmGNY
     notify: false # mail notifier , https://github.com/xCss/Valine/wiki
-    verify: false # Verification code
-    placeholder: Just go go # comment box placeholder
-    avatar: mm # gravatar style
+    verify: true # Verification code
+    placeholder: 有什么建议欢迎留言喔~ # comment box placeholder
+    avatar: identicon # gravatar style
     meta: nick,mail,link # custom comment header
     pageSize: 10 # pagination size
     visitor: false # Article reading statistic https://valine.js.org/visitor.html
